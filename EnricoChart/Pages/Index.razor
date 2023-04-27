@@ -1,0 +1,207 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+<div class="col">
+
+    <Chart Config="_barConfig" height="300px"></Chart>
+    <br />
+    <Chart Config="_doughnutConfig" height="300px"></Chart>
+
+</div>
+
+
+@code {
+    private BarChartConfig _barConfig;
+    private DoughnutChartConfig _doughnutConfig;
+
+    private List<string> etfStocks = new List<string> { "BITO", "QQQ", "SCHD", "IAU"};
+    private List<decimal?> etfValues = new List<decimal?>() { 300, 300, 300, 300 };
+    private List<string> usStocks =  new List<string> { "AAPL", "GOOGL","MSFT","DIS", "COST", "MELI",  "AMZN", "TSLA"};
+    private List<decimal?> usValues = new List<decimal?>() { 1500, 1500, 1500,  1000,  1000,   1000,    500,    500  };
+
+    private List<string> BackgroundColors = new List<string> {"#007bff", "#dc3545", "#ffc107", "#28a745", "#6c757d", "#e83e8c",
+                                        "#fd7e14", "#17a2b8", "#6f42c1", "#343a40", "#ffc8dd", "#ff9eb9",
+                                        "#ffa600", "#ccff66", "#6699cc", "#cc33ff", "#993366", "#33cc33",
+                                        "#cc6666", "#669966"};
+
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        BarSetup();
+        DoughnutSetup();
+    }
+
+
+    private void BarSetup()
+    {
+        _barConfig = new BarChartConfig()
+        {
+            Options = new Options()
+            {
+                RegisterDataLabels = true,
+                Responsive =true,
+                Plugins = new Plugins()
+                {
+                    Legend = new Legend()
+                    {
+                        Display = true,
+                    },
+                    DataLabels = new DataLabels()
+                    {
+                        Align = DatalabelsAlign.Center,
+                        Anchor = DatalabelsAnchor.End,
+                        BackgroundColor = "#007bff",
+                        Color = "#ffffff",
+                        Clip = false,
+                    }
+                },
+                Scales = new Dictionary<string, Axis>()
+                {
+                    {
+                        Scales.XAxisId, new Axis()
+                        {
+                            Stacked = true,
+                            Ticks = new Ticks()
+                            {
+                                MaxRotation = 0,
+                                MinRotation = 0
+                            }
+                        }
+                    },
+                    {
+                        Scales.YAxisId, new Axis()
+                        {
+                            Stacked = true,
+                            Title = new AxesTitle()
+                            {
+                                Display = true,
+                                Text = "This is an Y title"
+                            }
+                        }
+                    }
+                },
+                Animation = true,
+            }
+        };
+
+
+        _barConfig.Data.Labels = usStocks;
+        _barConfig.Data.Datasets.Add(new BarDataset()
+        {
+            Label = "Valor",
+            Data = usValues,
+            Fill = false,
+            BackgroundColor = BackgroundColors,
+            BorderWidth = 1,
+        });
+        _barConfig.Data.Datasets.Add(new BarDataset()
+        {
+            Label = "Maximo",
+            Data = usValues,
+            BorderColor = new List<string> { BackgroundColors[0] },
+            Type = "line"
+        });
+    }
+
+    private void DoughnutSetup()
+    {
+        _doughnutConfig = new DoughnutChartConfig()
+        {
+            Options = new Options()
+            {
+                RegisterDataLabels = true,
+                Responsive = true,
+                MaintainAspectRatio = false,
+                Animation = true,
+                Plugins = new Plugins()
+                {
+                    Legend = new Legend()
+                    {
+                        Display = true,
+                        Position = LegendPosition.Left,
+                        Align = Align.Center
+
+                    },
+                    DataLabels = new DataLabels()
+                    {
+                        Align = DatalabelsAlign.Center,
+                        Anchor = DatalabelsAnchor.End,
+                        Color = "#ffffff",
+                        Clip = true,
+                    },
+                    //    Tooltip = new Tooltip()
+                    //    {
+                    //        Callbacks = new Callbacks()
+                    //        {
+                    //            Label = (ctx) =>
+                    //            {
+                    //                return new[] {
+                    //                    $"DataIndex: {ctx.DataIndex}\nDatasetIndex: {ctx.DatasetIndex}" };
+                    //            },
+                    //            Title = (ctx) =>
+                    //            {
+                    //                return new[] { $"This is the value {ctx.Value}" };
+                    //            }
+                    //        }
+                    //    },
+
+                    //},
+                }
+            }
+        };
+
+
+
+
+        List<decimal?> percentages = new List<decimal?>();
+        decimal? sum = usValues.Sum();
+
+        foreach (decimal? value in usValues)
+        {
+            decimal? percentage = Math.Round(((decimal)value / (decimal)sum * 100),2);
+            percentages.Add(percentage);
+        }
+
+
+        _doughnutConfig.Data.Labels = usStocks;
+        _doughnutConfig.Data.Datasets.Add(new DoughnutDataset()
+        {
+            Label = "Data 1",
+            Data = percentages,
+            BackgroundColor = BackgroundColors,
+            HoverOffset = 4,
+            DataLabels = new DataLabels()
+            {
+                Align = DatalabelsAlign.Center,
+                Anchor = DatalabelsAnchor.Center,
+                //BackgroundColor = "#007bff",
+                Color = "#ffffff",
+                Font = new Font() { Style="Bold", Size=16 },
+                Clip = true
+            }
+        });
+        //_doughnutConfig.Data.Datasets.Add(new DoughnutDataset()
+        //{
+        //    Label = "Data 2",
+        //    Data = new List<decimal?>() { 60, 40 },
+        //    BackgroundColor = BackgroundColors,
+        //    HoverOffset = 4,
+        //    DataLabels = new DataLabels()
+        //    {
+        //        Align = DatalabelsAlign.Center,
+        //        Anchor = DatalabelsAnchor.Center,
+        //        //BackgroundColor = "#007bff",
+        //        Color = "#ffffff",
+        //        Font = new Font() { Style = "Bold", Size = 16 },
+        //        Clip = true
+        //    }
+        //});
+    }
+
+
+    }
+

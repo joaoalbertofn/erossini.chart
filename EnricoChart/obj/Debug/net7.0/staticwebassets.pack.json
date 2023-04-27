@@ -1,0 +1,181 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/Chart.js",
+      "PackagePath": "staticwebassets/Chart.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/Chart.js/chart.esm.js",
+      "PackagePath": "staticwebassets/lib/Chart.js/chart.esm.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/Chart.js/chart.esm.min.js",
+      "PackagePath": "staticwebassets/lib/Chart.js/chart.esm.min.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/Chart.js/chart.js",
+      "PackagePath": "staticwebassets/lib/Chart.js/chart.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/Chart.js/chart.min.js",
+      "PackagePath": "staticwebassets/lib/Chart.js/chart.min.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/Chart.js/chart.mjs",
+      "PackagePath": "staticwebassets/lib/Chart.js/chart.mjs"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/Chart.js/helpers.esm.js",
+      "PackagePath": "staticwebassets/lib/Chart.js/helpers.esm.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/Chart.js/helpers.esm.min.js",
+      "PackagePath": "staticwebassets/lib/Chart.js/helpers.esm.min.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/Chart.js/helpers.mjs",
+      "PackagePath": "staticwebassets/lib/Chart.js/helpers.mjs"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/chartjs-plugin-datalabels/chartjs-plugin-datalabels.esm.js",
+      "PackagePath": "staticwebassets/lib/chartjs-plugin-datalabels/chartjs-plugin-datalabels.esm.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/chartjs-plugin-datalabels/chartjs-plugin-datalabels.esm.min.js",
+      "PackagePath": "staticwebassets/lib/chartjs-plugin-datalabels/chartjs-plugin-datalabels.esm.min.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/chartjs-plugin-datalabels/chartjs-plugin-datalabels.js",
+      "PackagePath": "staticwebassets/lib/chartjs-plugin-datalabels/chartjs-plugin-datalabels.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/chartjs-plugin-datalabels/chartjs-plugin-datalabels.min.js",
+      "PackagePath": "staticwebassets/lib/chartjs-plugin-datalabels/chartjs-plugin-datalabels.min.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/chartjs-plugin-zoom/chartjs-plugin-zoom.esm.js",
+      "PackagePath": "staticwebassets/lib/chartjs-plugin-zoom/chartjs-plugin-zoom.esm.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/chartjs-plugin-zoom/chartjs-plugin-zoom.esm.min.js",
+      "PackagePath": "staticwebassets/lib/chartjs-plugin-zoom/chartjs-plugin-zoom.esm.min.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/chartjs-plugin-zoom/chartjs-plugin-zoom.js",
+      "PackagePath": "staticwebassets/lib/chartjs-plugin-zoom/chartjs-plugin-zoom.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/chartjs-plugin-zoom/chartjs-plugin-zoom.min.js",
+      "PackagePath": "staticwebassets/lib/chartjs-plugin-zoom/chartjs-plugin-zoom.min.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/hammer.js/hammer.js",
+      "PackagePath": "staticwebassets/lib/hammer.js/hammer.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/hammer.js/hammer.min.js",
+      "PackagePath": "staticwebassets/lib/hammer.js/hammer.min.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/hammer.js/hammer.min.js.map",
+      "PackagePath": "staticwebassets/lib/hammer.js/hammer.min.js.map"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/.nuget/packages/psc.blazor.components.chartjs/6.0.40/contentFiles/any/net6.0/wwwroot/lib/hammer.js/hammer.min.map",
+      "PackagePath": "staticwebassets/lib/hammer.js/hammer.min.map"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/obj/Debug/net7.0/build-gz/Xy98Fggt.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/obj/Debug/net7.0/scopedcss/bundle/EnricoChart.styles.css",
+      "PackagePath": "staticwebassets/EnricoChart.styles.css"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/joaoalbertofn/Projects/EnricoChart/EnricoChart/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.EnricoChart.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.EnricoChart.props",
+      "PackagePath": "build\\EnricoChart.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.EnricoChart.props",
+      "PackagePath": "buildMultiTargeting\\EnricoChart.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.EnricoChart.props",
+      "PackagePath": "buildTransitive\\EnricoChart.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
